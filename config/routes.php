@@ -11,6 +11,11 @@ return function (Router $router) {
     $router->post('/login', [AuthController::class, 'login']);
     $router->post('/logout', [AuthController::class, 'logout']);
 
+
+
+
+
+    /* EXEMPLE
     $router->get('/products', [ProductController::class, 'index']);
     $router->get('/products/show', [ProductController::class, 'show']);
     $router->get('/products/create', [ProductController::class, 'create']);
@@ -26,4 +31,5 @@ return function (Router $router) {
     $router->get('/categories/edit', [CategoryController::class, 'edit']);
     $router->post('/categories/update', [CategoryController::class, 'update']);
     $router->post('/categories/delete', [CategoryController::class, 'delete']);
+    */
 };
