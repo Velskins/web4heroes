@@ -1,6 +1,6 @@
 <h1><?= htmlspecialchars($title) ?></h1>
 
-<p><a href="/incidents/create" style="background: blue; color: white; padding: 5px;">+ Déclarer un nouvel incident</a></p>
+<p><a href="/incident/create" style="background: blue; color: white; padding: 5px;">+ Déclarer un nouvel incident</a></p>
 
 <table border="1" cellpadding="10" cellspacing="0" width="100%">
     <thead>
