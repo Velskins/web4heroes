@@ -8,7 +8,7 @@
     </p>
 <?php endif; ?>
 
-<form action="/incidents/create" method="POST">
+<form action="/incident/create" method="POST">
 
     <h3>Informations Générales</h3>
     <div>

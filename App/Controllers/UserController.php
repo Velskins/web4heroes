@@ -22,7 +22,7 @@ final class UserController extends Controller
 
     public function profile(): Response
     {
-        // TODO: Récupérer l'ID depuis la SESSION. Pour le moment ID = 1 en dur.
+        // TODO: Récupérer ID SESSION. Pour le moment ID = 1 en dur.
         $userId = 1;
         $user = $this->users->findOneById($userId);
 

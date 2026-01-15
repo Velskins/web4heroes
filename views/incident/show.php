@@ -53,4 +53,4 @@
     <?php endif; ?>
 </div>
 
-<p><a href="/incidents">Retour à la liste</a></p>
+<p><a href="/incident">Retour à la liste</a></p>
