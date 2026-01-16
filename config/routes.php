@@ -1,6 +1,6 @@
 <?php
 
-use App\Controllers\{AuthController, CategoryController, ProductController};
+use App\Controllers\{AuthController, CategoryController, IncidentController, ProductController};
 use App\Controllers\HomeController;
 use App\Core\Router;
 
@@ -11,6 +11,13 @@ return function (Router $router) {
     $router->post('/login', [AuthController::class, 'login']);
     $router->post('/logout', [AuthController::class, 'logout']);
 
+    $router->get('/incident', [IncidentController::class, 'index']);
+    $router->get('/incident/show', [IncidentController::class, 'show']);
+    $router->get('/incident/create', [IncidentController::class, 'create']);
+    $router->post('/incident/store', [IncidentController::class, 'store']);
+    $router->get('/incident/edit', [IncidentController::class, 'edit']);
+    $router->post('/incident/update', [IncidentController::class, 'update']);
+    $router->post('/incident/delete', [IncidentController::class, 'delete']);
 
 
 
