@@ -1,6 +1,6 @@
-<h1>
+<h2>
     <?= htmlspecialchars($title) ?>
-</h1>
+</h2>
 
 <form action="/login" method="POST">
 
